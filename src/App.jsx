@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './App.css';
-import Form from './components/Form/Form';
 import Search from './components/Search';
 
 function App() {
@@ -39,8 +38,8 @@ function App() {
 
   return (
     <>
-     {/* <Search data={data} onSearch={onSearch} /> */}
-     <Form />
+     <Search data={data} onSearch={onSearch} />
+     {/* <Form /> */}
     </>
   )
 }
